@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeltaFlix</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1c1c1c;
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      background-color: #e50914;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    main {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    .announcement {
+      display: flex;
+      align-items: center;
+      background-color: #333;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    .announcement img {
+      max-width: 200px;
+      margin-right: 20px;
+      border-radius: 10px;
+    }
+    .announcement .info {
+      max-width: 800px;
+    }
+    .announcement h2 {
+      margin: 0 0 10px;
+    }
+    .videos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .video {
+      background-color: #444;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+    }
+    .video iframe {
+      width: 100%;
+      height: 150px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>DeltaFlix</h1>
+</header>
+
+<main>
+  <div class="announcement">
+    <iframe width="350" height="200" src="https://www.youtube.com/embed/6P79AqWs8V8" 
+      frameborder="0" allowfullscreen></iframe>
+    <div class="info">
+      <h2>Novo Filme de Demon Slayer</h2>
+      <p>Descubra tudo sobre o próximo filme de Demon Slayer. Prepare-se para emoções intensas!</p>
+    </div>
+  </div>
+
+  <h2>Trailers de Temporadas Anteriores</h2>
+  <div class="videos">
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/VQGCKyvzIM4" frameborder="0" allowfullscreen></iframe>
+      <p>Trailer Temporada 1</p>
+    </div>
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/t6MXHczeEqc" frameborder="0" allowfullscreen></iframe>
+      <p>Trailer Temporada 2</p>
+    </div>
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/ATJYac_dORw" frameborder="0" allowfullscreen></iframe>
+      <p>Trailer do Filme</p>
+    </div>
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/YhrA6hjQbTw" frameborder="0" allowfullscreen></iframe>
+      <p>Trailer Temporada 3</p>
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
